@@ -1,13 +1,17 @@
 # MinecraftTicks
 
-A utility to convert minecraft ticks to other time units.
+A utility to convert minecraft ticks to/from other time units.
 
 [![Release](https://jitpack.io/v/robertlit/MinecraftTicks.svg)](https://jitpack.io/#robertlit/MinecraftTicks)
 
-[Javadoc](https://jitpack.io/com/github/robertlit/MinecraftTicks/latest/javadoc/)
+[Javadoc](https://javadoc.jitpack.io/com/github/robertlit/MinecraftTicks/latest/javadoc/)
+
+[See on SpigotMC](https://www.spigotmc.org/threads/a-utility-to-convert-minecraft-ticks-to-from-other-time-units.460621/)
+
+If this has helped you, please consider [donating via PayPal](https://www.paypal.me/robertlitmc).
 
 # How to use
-You get the artifact from JitPack using Maven/Gradle, install the artifact locally, or copy the necessary classes.
+You can get the artifact from JitPack using Maven/Gradle, install the artifact locally, or copy the necessary classes.
 
 ## Maven
 Add JitPack as a repository
@@ -48,5 +52,3 @@ dependencies {
 ## Installing locally
 Clone the repository, install the artifact locally (using ```mvn install```, for example)
 and use the artifact information that is in the ```pom.xml``` file as a dependency.
-
-If this has helped you, please consider [donating via PayPal](https://www.paypal.me/robertlitmc).
