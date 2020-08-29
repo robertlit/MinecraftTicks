@@ -30,7 +30,7 @@ Add MinecraftTicks as a dependency
   <dependency>
     <groupId>com.github.robertlit</groupId>
     <artifactId>MinecraftTicks</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
   </dependency>
 </dependencies>
 ```
@@ -45,7 +45,7 @@ repositories {
 Add MinecraftTicks as a dependency
 ```
 dependencies {
-    implementation 'com.github.robertlit:MinecraftTicks:1.0'
+    implementation 'com.github.robertlit:MinecraftTicks:1.0.1'
 }
 ```
 

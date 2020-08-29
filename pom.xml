@@ -6,7 +6,7 @@
 
     <groupId>me.robertlit</groupId>
     <artifactId>minecraftticks</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <build>
         <plugins>
             <plugin>
@@ -47,6 +47,11 @@
         </plugins>
     </build>
     <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>19.0.0</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>

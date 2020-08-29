@@ -25,6 +25,10 @@ SOFTWARE.
  */
 package me.robertlit.ticks;
 
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Objects;
+
 /**
  * Methods to convert minecraft ticks to other time units.
  */
@@ -44,8 +48,8 @@ public final class Ticks {
      * Sets the TpsProvider.
      * @param tpsProvider the wanted TpsProvider.
      */
-    public static void withTpsProvider(TpsProvider tpsProvider) {
-        Ticks.tpsProvider = tpsProvider;
+    public static void withTpsProvider(@NotNull TpsProvider tpsProvider) {
+        Ticks.tpsProvider = Objects.requireNonNull(tpsProvider, "tps provider can not be null");
     }
 
     /**
